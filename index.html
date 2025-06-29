@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>لعبة تعلم الإنجليزية - تكميل كلمات</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <header>
+      <h1>لعبة تعلم الإنجليزية</h1>
+      <div class="status-bar">
+        <div id="level">المستوى: 1</div>
+        <div id="hearts">قلوب: ❤️❤️❤️</div>
+      </div>
+    </header>
+    <main>
+      <div id="word-container" class="word-container"></div>
+      <input type="text" id="answer-input" maxlength="1" autocomplete="off" placeholder="أدخل الحرف هنا" autofocus />
+      <button id="submit-btn">تأكيد</button>
+      <div id="message" class="message"></div>
+    </main>
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
